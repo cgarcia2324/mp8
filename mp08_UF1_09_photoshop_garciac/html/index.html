@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+        body{
+            width:150px;
+            height: 150px;
+            border-radius: 20%;
+            
+        }
+
+        body::before{
+            font-size: 100px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            content: "Ps";
+            line-height: 140px;
+            display: block;
+            height: 150px;
+            width: 150px;
+            position: relative;
+            color: rgb(119, 119, 192);
+            background-color: midnightblue;
+            border-radius: 30px;
+            font-size: 100px;
+            margin-left: 700%;
+    
+        }
+        .contenedor{
+            width: 800px;
+            height: 800px;
+            margin: auto;
+            margin-left: 500%;
+            
+        }
+        .imatge{
+            height: 130px;
+            width: 130px;
+            background-image: url("../img/fruita.jpg");
+            background-size: cover;
+            margin: 0 auto;
+        }
+        .efecte {
+            margin: 10px;
+            text-align: center;
+            width: 150px;
+            height: 250px;
+            float: left;
+            margin: 0 auto;
+        }
+        h2{
+            margin:10px;
+            background-color: violet;
+            font-size: 13px;
+        }
+        .desenfoc .imatge{
+        filter: blur(5px);
+        }
+
+        .lluminositat .imatge{
+        filter: brightness(2);
+        }
+
+        .contrast .imatge{
+            filter: contrast(200%);
+        }
+
+        .ombra .imatge{
+            filter: drop-shadow(10px 5px 10px black)
+        }
+        
+        .escala .imatge{
+            filter: grayscale(50)
+        }    
+
+        .to .imatge{
+            filter: hue-rotate(-50deg);
+        }
+
+        .invertir .imatge{
+            filter: invert(70%);
+        }
+        .opacitat .imatge{
+            filter: opacity(20%);
+        }
+        .saturacio .imatge{
+            filter: saturate(30%);
+        }
+        .sepia .imatge{
+            filter: sepia(30%);
+        }
+        
+
+    </style>
+
+</head>
+<body id="cgarcia">
+
+    <div class="contenedor">
+
+                    <div class="efecte desenfoc" >
+                        <h2>Desenfoc</h2>
+                        <div class="imatge"></div>
+                        <input type="range">
+                    </div>
+
+                    <div class="efecte lluminositat">
+                        <h2>Lluminositat</h2>
+                        <div class="imatge"></div>
+                        <input type="range">
+                    </div>
+
+                    <div class="efecte contrast">
+                        <h2>Contrast</h2>
+                        <div class="imatge"></div>
+                        <input type="range">
+                    </div>
+
+                    <div class="efecte Ombra">
+                        <h2>Ombra Paral·lela</h2>
+                        <div class="imatge"></div>
+                        <input type="range">
+                    </div>
+
+                    <div class="efecte escala">
+                        <h2>Escala de Grisos</h2>
+                        <div class="imatge"></div>
+                        <input type="range">
+                    </div>
+
+                    <div class="efecte to">
+                        <h2>Tó de Saturació</h2>
+                        <div class="imatge"></div>
+                        <input type="range">
+                    </div>
+
+                    <div class="efecte invertir">
+                        <h2>Invertir</h2>
+                        <div class="imatge"></div>
+                        <input type="range">
+                    </div>
+
+                    <div class="efecte opacitat">
+                        <h2>Opacitat</h2>
+                        <div class="imatge"></div>
+                        <input type="range">
+                    </div>
+
+                    <div class="efecte saturacio">
+                        <h2>Saturació</h2>
+                        <div class="imatge"></div>
+                        <input type="range">
+                    </div>
+
+                    <div class="efecte sepia">
+                        <h2>Sepia</h2>
+                        <div class="imatge"></div>
+                        <input type="range">
+                    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    content: "Ps";
+    width:150px;
+    height: 150px;
+    border-radius: 20%;
+    background-color: midnightblue;
+    color: blue;
+    margin: 0 auto;
+}
+
+body::before{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}

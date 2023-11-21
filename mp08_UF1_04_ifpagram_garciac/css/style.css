@@ -1,0 +1,247 @@
+.menu {
+    background-color: white;
+    height: 168px;
+    padding-top: 10px;
+}
+.contactes {
+    background-color:white;
+    height:195px;
+}
+.contingut {
+    background-color:white;
+    height: 1800px;
+}
+li {
+    display: inline-block;
+    margin: 10px;
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 200px;
+}
+ul {
+    width: 1061px;
+    font-size: 10px;
+    margin: auto;
+    padding: 36px;   
+}
+.logo { 
+    height: 38px;
+    width: 200px;
+    float: left;
+}
+.nav{
+    height: 38px;
+    width: 200px;
+    margin: auto;
+   
+}
+.nav ul{
+    width: 210px;
+    height: 50px;
+    padding: 0%;
+    margin: auto;
+    background-size: 100%;
+
+}
+.nav ul li{ 
+    width: 42px;
+    height: 42px;
+    margin: 4px;
+
+}
+.user{
+    height: 47px;
+    width: 110px;
+    float: right;
+}
+
+.home {
+    background-image: url(../img/ifpagram_05.png);
+}
+.reserch{
+    background-image: url(../img/lupa.png);
+}
+.tv{
+    background-image: url(../img/tv.png);
+}
+.like{
+    background-image: url(../img/cora.png);
+}
+#contacte01 {
+    background-image: url(../img/ifpagram_05_11.png);
+    color: black;
+}
+#contacte01:hover {
+    background-size: 150%;
+    background-position: center;
+}
+
+#contacte02 {
+    background-image: url(../img/ifpagram_09.png);
+    color: black;
+}
+
+#contacte02:hover {
+    background-size: 150%;
+    background-position: center;
+}
+
+#contacte03 {
+    background-image: url(../img/ifpagram_11.png);
+    color: black;
+}
+
+#contacte04:hover {
+    background-size: 150%;
+    background-position: center;
+}
+
+#contacte04 {
+    background-image: url(../img/ifpagram_13.png);
+    color: black;
+}
+
+#contacte05 {
+    background-image: url(../img/ifpagram_15.png);
+    color: black;
+}
+
+#contacte05:hover {
+    background-size: 150%;
+    background-position: center;
+}
+
+#contacte06 {
+    background-image: url(../img/ifpagram_17.png);
+    color: black;
+}
+
+#contacte06:hover {
+    background-size: 150%;
+    background-position: center;
+}
+
+#contacte07 {
+    background-image: url(../img/ifpagram_19.png);
+    color: black;
+}
+
+#contacte07:hover {
+    background-size: 150%;
+    background-position: center;
+}
+
+#contacte08 {
+    background-image: url(../img/ifpagram_21.png);
+    color: black;
+}
+
+#contacte08:hover {
+    background-size: 150%;
+    background-position: center;
+}
+
+#contacte09 {
+    background-image: url(../img/ifpagram_23.png);
+    color: black;
+}
+
+#contacte09:hover {
+    background-size: 150%;
+    background-position: center;
+}
+
+#contacte10 {
+    background-image: url(../img/ifpagram_112.png);
+    color: black;
+}
+
+#contacte10:hover {
+    background-size: 150%;
+    background-position: center;
+}
+.post{
+    width: 545px;
+    margin:0 auto;
+    padding: 10px;
+    text-align:center;
+    overflow: hidden;
+    float: left;
+
+}
+.post img {
+    width: 535px;
+}
+
+.post div {
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+}
+
+.post .postejador{
+    float: left;
+    width: 130px;
+}
+.postejador img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    float: left;
+    padding: 10px;
+}
+.post .postejador h5{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.post .postejador h6{
+    padding-top: 3px;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+    padding-right: 8px;
+}
+.post .reaccions {
+    float: right;
+    font-family: Helvetica, sans-serif;
+}
+.post .reaccions p{
+    float: left;
+    font-size: 16px;
+    padding-top: 15px ;
+    font-weight: 600;
+}
+.post .reaccions .cor{
+    float: right;
+    font-family: Helvetica, sans-serif;
+    padding-top: 15px;
+}
+.cor img{
+    height: 20px;
+    width: 20px;
+    
+}
+.post .posteador img {
+    width: 160px;
+    border-radius: 50%;
+    float: left;
+}
+
+.centrador{
+    width: 1699px;
+    overflow: hidden;
+    margin: auto;
+}
+
+a:link {
+    opacity: 100%;
+}
+
+a:hover {
+    opacity: 60%;
+    background-size: 200%;
+}

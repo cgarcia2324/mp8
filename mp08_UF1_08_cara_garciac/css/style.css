@@ -1,0 +1,436 @@
+*{
+    position: relative;
+}
+
+body {
+    margin: 0;
+}
+
+
+#contenedor {
+      padding-top: 100px;
+       width: 100%;
+       height: 980px;
+       margin: 0 auto;
+       background-image: url("https://elviajerodespistado.com/wp-content/uploads/2019/07/Castillo-de-Durham-Inglaterra.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+   
+   .cara{
+    border-bottom: solid 10px rgb(255, 238, 203);
+       margin: auto;
+       height: 500px;
+       width: 400px;
+       background-color: rgb(255, 238, 203);
+       border-radius: 50% 50% 50% 50% / 40% 40% 65% 65%;
+       position: relative;
+       top:20px;
+       z-index: 2;
+       left: 40px;
+   }
+
+
+   .melenaizq {
+    margin: auto;
+    height: 650px;
+    width: 350px;
+    background-color: rgb(153, 100, 54);
+    border-radius: 50% 50% 50% 50% / 40% 40% 5% 65%;
+    position: relative;
+    left: -130px;
+    z-index: 2;
+   }
+
+   .melenadech {
+        margin: auto;
+        height: 650px;
+        width: 350px;
+        background-color: rgb(153, 100, 54);
+        border-radius: 50% 50% 50% 50% / 40% 40% 65% 5%;
+        position: relative;
+        z-index: 5;
+    }
+
+   .flequilloizq {
+        width:200px;
+        height: 200px;
+        border-radius: 100% 0%;
+        border: solid rgb(153, 100, 54) 1px;
+        background-color: rgb(153, 100, 54);
+        left: -2px;
+        top: -5px;
+    }
+
+   .flequilloder{
+        width:200px;
+        height: 200px;
+        border: solid rgb(153, 100, 54) 2px;
+        border-radius: 0% 100%;
+        background-color: rgb(153, 100, 54);
+        left:201px;
+        top: -2px
+    }
+    .orelladreta{
+        width: 100px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgb(255, 238, 203);
+        left: -40px;
+        top: -15px;
+        rotate: -20deg;
+    }
+    .orellaesquerra{
+        width: 100px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgb(255, 238, 203);
+        left: 340px;
+        top: -165px;
+        rotate: 20deg;
+    }
+
+    .ojoderecho{
+        width: 100px;
+        height: 100px;
+        border-radius: 100% 40%;
+        background-color: white;
+        left: 60px;
+        top: -515px;
+        rotate: 50deg;
+    }
+    
+    .ojoizquierdo{
+        width: 100px;
+        height: 100px;
+        border-radius: 100% 40%;
+        background-color: white;
+        left: 240px;
+        top: -655px;
+        rotate: 50deg;
+    }
+    .pupiladerecha{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: black;
+        border: green 10px solid;
+        left: 95px;
+        top: -585px;
+    }
+    .boca{
+        width: 180px;
+        height: 90px;
+        border-radius: 5% 5% 50% 50%;
+        background-color: rgb(247, 120, 120);
+        left: 110px;
+        top: -610px;
+    }
+    .pupilaizquierda{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: black;
+        border: green 10px solid;
+        left: 265px;
+        top: -725px;
+    }
+    .dientes{
+        width: 180px;
+        height: 20px;
+        background-color: white;
+        left: 110px;
+        top: -705px;
+    }
+    .lenguas{
+        width: 100px;
+        height: 100px;
+        border-radius: 100% 40%;
+        background-color:red;
+        left: 60px;
+        top: -300px;
+        rotate: 50deg;
+    }
+    .sombranariz{
+        width: 70px;
+        height: 70px;
+        background-color:rgb(251, 220, 158);
+        left: 205px;
+        top: -205px;
+        z-index: 3;
+        border-radius: 50%;
+    }
+    .nariz{
+        width: 70px;
+        height: 70px;
+        background-color:rgb(255, 238, 203);
+        left: 205px;
+        top: -290px;
+        z-index: 3;
+        border-radius: 0 50%;
+        rotate: 135deg;
+    }
+    .lengua{
+        width: 120px;
+        height: 40px;
+        border-radius: 50% 50% 40% 40%;
+        background-color: rgb(255, 95, 95);
+        left: 140px;
+        top: -672px;
+    
+    }
+    .pestañasizquierda{
+        width: 100px;
+        height: 100px;
+        border-radius: 100% 40%;
+        background-color: rgb(153, 100, 54);
+        left: 240px;
+        top: -420px;
+        rotate: 50deg;
+    }
+    .pestañasderecha{
+        width: 100px;
+        height: 100px;
+        border-radius: 100% 40%;
+        background-color: rgb(153, 100, 54);
+        left: 60px;
+        top: -320px;
+        rotate: 50deg;
+    }
+    .cuello{
+        width: 180px;
+        height: 100px;
+        background-color: rgb(245, 222, 178);
+        z-index: 1;
+        left: 150px;
+        top: -156px;
+    }
+    .cuerpo{
+        width: 500px;
+        height: 300px;
+        background-color: white;
+        border-radius: 50% 50% 5% 5% ;
+        left: -5px;
+        z-index: 1;
+        top: -200px;
+    }
+    .cejaderecha{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(153, 100, 54);
+        left: 290px;
+        top: -1000px;
+        z-index: 3;
+        clip-path: polygon(44% 30%, 100% 38%, 100% 54%, 44% 45%, 19% 52%, 0 53%);
+        transform: rotatey(180deg);
+    }
+    .cejaizquierda{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(153, 100, 54);
+        left: 90px;
+        z-index: 3;
+        top: -900px;
+        clip-path: polygon(44% 30%, 100% 38%, 100% 54%, 44% 45%, 19% 52%, 0 53%);
+    }
+
+    .cristalizquierdo{
+        width: 150px;
+        height: 150px;
+        border: solid 5px black;
+        border-radius: 50%;
+        left: 65px;
+        z-index: 4;
+        top: -1060px;
+    }
+    .cristalderecho{
+        width: 150px;
+        height: 150px;
+        border: solid 5px black;
+        border-radius: 50%;
+        left: 260px;
+        z-index: 4;
+        top: -1220px;
+    }
+    .centrogafas{
+        width: 45px;
+        height: 40px;
+        background-color:black;
+        left: 219px;
+        top: -1305px;
+        z-index: 4;
+        border-radius: 50%;
+    }
+    .gafassombra{
+        width: 41px;
+        height: 42px;
+        background-color:rgb(255, 238, 203);
+        left: 222px;
+        top: -1335px;
+        z-index: 5;
+        border-radius: 50%;
+        rotate: 135deg;
+    }
+    .patillaizquierda{
+        width: 40px;
+        height: 8px;
+        background-color: black;
+        left: 40px;
+        top: -1435px;
+        z-index: 4;
+        rotate: 40deg;
+    }
+    .patilladerecha{
+        width: 40px;
+        height: 8px;
+        background-color: black;
+        left: 405px;
+        z-index: 4;
+        top: -1445px;
+        rotate: -40deg;
+    }
+    .barbilla{
+            height: 30px;
+            width: 180px;
+            background-color: rgb(245, 222, 178);
+            z-index: 1;
+            border-radius:  0% 0% 65% 65% ;
+            position: relative;
+            top: -1120px;
+            left: 150px;
+    
+    }
+    .lunar1{
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: rgb(87, 61, 41);
+        top: -1335px;
+        left: 150px;
+        z-index: 5;
+    }
+    .lunar2{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: rgb(87, 61, 41);
+        top: -1370px;
+        left: 255px;
+        z-index: 5;
+    }
+    .cuerpo:hover{
+        background-color: yellow; 
+    }
+
+    .lengua:hover{
+        background-color: brown;
+    }
+ 
+    .corbata {
+        height: 80px;
+        width: 100px;
+        top: -1290px;
+        left: 190px;
+        border: black 2px solid;
+        background-color: yellow;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1N7Lb50xAWuE6HzpLe1qlHDa0WyBR-IRZA&usqp=CAU");
+        z-index: 6;
+    }
+    .corbatalarga{
+        height: 150px;
+        width: 100px;
+        top: -1090px;
+        left: 190px;
+        background-color: yellow;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1N7Lb50xAWuE6HzpLe1qlHDa0WyBR-IRZA&usqp=CAU");
+        clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+        border: black 2px solid;
+        z-index: 5;
+    }
+    .ropaderecha{
+        width: 500px;
+        height: 300px;
+        background-color: black;
+        border-radius: 50% 50% 5% 5% ;
+        top: -1400px;
+        left: 20px;
+        clip-path: polygon(66% 0, 100% 0, 100% 100%, 31% 100%);
+        z-index: 8;
+        
+    }
+    .ropaizquierda{
+        width: 500px;
+        height: 300px;
+        background-color: black;
+        border-radius: 50% 50% 5% 5% ;
+        top: -1700px;
+        left: -22px;
+        clip-path: polygon(30% 0, 0 0, 0 100%, 63% 100%);
+        z-index: 8;
+        
+    }
+    .rayo{
+        width: 80px;
+        height: 80px;
+        top: -2440px;
+        left: 200px;
+        background-color:  rgb(255, 238, 203);
+        clip-path: polygon(71% 0, 48% 45%, 85% 45%, 30% 100%, 63% 54%, 27% 54%);
+        z-index: 15;
+    }
+    .rayo:hover{
+        background-color: goldenrod;
+    }
+    .cuellocamisetaizquierda{
+        width: 100px;
+        height: 100px;
+        top: -2190px;
+        left: 133px;
+        background-color: white;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0 73%);
+        z-index: 15;
+        rotate: -80deg;
+
+    }
+    .cuellocamisetaderecha{
+        width: 100px;
+        height: 100px;
+        top: -2090px;
+        left: 250px;
+        rotate: 80deg;
+        background-color: white;
+        clip-path: polygon(0 0, 73% 0, 100% 70%, 23% 100%);
+        z-index: 15;
+    }
+   
+    .cuerpo2{
+        width: 540px;
+        height: 200px;
+        top: -2050px;
+        left: -20px;
+        background-color: black;
+        z-index: 16;
+    }
+    .sd img{
+        width: 300px;
+        height: 150px;
+        top: -2900px;
+        left: 720px;
+        z-index: 29;
+        
+        animation-duration: 0.5s;
+        animation-name: pep;
+        animation-iteration-count: infinite;
+        animation-fill-mode:backwards;
+        animation-direction: alternate;
+       
+    }
+    @keyframes pep{
+        from{
+            margin-top: 400px;
+        }
+        to{
+            margin-bottom:400px;
+        }
+    }

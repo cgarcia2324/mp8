@@ -1,0 +1,852 @@
+*{
+    margin: 0;
+}
+.body{
+    background-color: black;
+}
+.barraprincipal {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    left: 20px;
+}
+img{
+    width: 60px;
+    height: 50px;
+    float: left;
+    background-image: url("../imagenes/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 50px;
+
+}
+.menu1 p{
+    float: left;
+    left: 20px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.menu2 p{
+    float: right;
+    color: white;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.contenidor{
+    height: 3000px;
+    background-color: rgb(32, 32, 32);
+}
+.documentalsinteressants h1{
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
+
+.cdi1{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi1 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/1982Koyaanisqatsi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.cdi1 #k{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi1 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi1 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+
+.cdi2{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi2 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2004YTuQueSabes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin: 10px;
+}
+.cdi2 #Y{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi2 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi2 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.cdi3{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi3 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2005Earthlings.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.cdi3 #E{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi3 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi3 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.cdi4{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi4 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2007Helvetica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    margin: 10px;
+}
+.cdi4 #H{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi4 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi4 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.cdi5{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi5 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2007Sicko.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin: 10px;
+}
+.cdi5 #s{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi5 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi5 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.cdi6{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi6 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2008Zeitgeist2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.cdi6 #z{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi6 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi6 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.cdi7{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi7 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2009ArtAndCopy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.cdi7 #a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi7 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi7 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.cdi8{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi8 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2009Home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.cdi8 #h{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi8 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi8 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.cdi9{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi9 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2009RipARemixManifesto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.cdi9 #r{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi9 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi9 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.cdi10{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi10 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2010ComprarTirarComprar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.cdi10 #c{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi10 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi10 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.cdi11{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdi11 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2010InsideJob.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.cdi11 #i{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdi11 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdi11 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.documentalvistos h1{
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.cdv1{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdv1 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2010InsideJob.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+    filter: grayscale(100%);
+}
+.cdv1 #i{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdv1 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdv1 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.cdv2{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdv2 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2012SearchingForSugarMan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+    filter: grayscale(100%);
+}
+.cdv2 #s{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdv2 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdv2 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.cdv3{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdv3 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2012TheActOfKilling.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+    filter: grayscale(100%);
+}
+.cdv3 #t{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdv3 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdv3 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.cdv4{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cdv4 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/2013ElEspirituDel45.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+    filter: grayscale(100%);
+}
+.cdv4 #e{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cdv4 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.cdv4 #Documental{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.peliculespendents h1{
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.pp1{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.pp1 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/XXXXpeli.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.pp1 #x{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.pp1 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.pp1 #p{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.pp2{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.pp2 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/XXXXpeli.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.pp2 #x{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.pp2 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.pp2 #p{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.peliculesvistes h1{
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+
+.pv1{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.pv1 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/quasinegre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.pv1 #x{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.pv1 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.pv1 #p{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.pv2{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.pv2 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/quasinegre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.pv2 #x{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.pv2 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.pv2 #p{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+
+.seriesseguint h1{
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.ss1{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.ss1 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/XXXXserie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.ss1 #x{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.ss1 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.ss1 #p{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.ss2{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.ss2 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/XXXXserie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.ss2 #x{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.ss2 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.ss2 #p{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.seriesvistes h1{
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.sv1{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.sv1 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/quasinegre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.sv1 #x{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.sv1 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.sv1 #p{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.sv2{
+    width: 220px;
+    height: 375px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.sv2 img{
+    width: 200px;
+    height: 300px;
+    background-image: url("../imagenes/quasinegre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.sv2 #x{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.sv2 #n{
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}
+.sv2 #p{
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+img:hover{
+    opacity: 50%;
+}

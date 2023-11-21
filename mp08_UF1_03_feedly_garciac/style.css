@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, "Helvetica", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+}   
+
+h1, p {
+    margin: 0px;
+    padding: 25px;
+    width: 350px;
+}
+
+a {text-decoration:none;
+    
+
+}
+ul {text-align: right;}
+
+li  {display: inline;
+    padding: 5px;
+    margin: 0 25px 0 0;
+    background-color: #6c3;
+    border-radius: 15px;
+    border-top-left-radius: 10px;
+
+}
+#menu {
+    background-color: #EEECEE;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+   }
+
+#coneix {
+    background-color: #6c3;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0px;
+}
+
+#tot{
+    background-color: #FFF;
+    height: 641px;
+    background-image: url(img/allinone.jpg);
+    background-repeat: no-repeat;
+    background-position: 400px 0px;;
+}
+
+#Útil{
+    background-color: #333333;
+    height: 500px;
+    color: #EEECEE;
+    background-image: url(img/curator-short.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0px;;
+}
+
+#Ràpid{
+    background-color: #EEECEE;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0px;;
+}
+
+#Fàcil{
+    background-color: #6c3;
+    height: 500px;
+    background-image: url(img/mobile-share.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0px;;
+}
+
+#A{
+    background-color: #EEECEE;
+    height: 643px;
+    background-image: url(img/anywhere.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0px;;
+}
+
+#Canvia{
+    background-color: #333333;
+    height: 200px;color: #EEECEE;
+    text-align: center;
+}
+#menu img {
+    display: inline;
+}
+
+#Canvia img{
+    margin: 25px;
+}
+#tornar { 
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    bottom: 200px;
+    left: 200px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 120px;
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+}

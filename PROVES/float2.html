@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=∂.0">
+    <title>Float2</title>
+    <style>
+        *, *:after, *:before{
+            margin: 0;
+            padding: 0;
+        }
+
+        body div{
+
+        }
+        div > .classe{
+
+        }
+        .contingut{
+            overflow: scroll ;
+        }
+        .primernivell{
+            background-color: violet;
+            color: white;
+            margin: 1rem;
+            display: inline-block;
+            padding: 0.25rem;
+            height: 2rem;
+            position: relative;
+        }
+        .primernivell:hover{
+            background-color: purple;
+        }
+        .primernivell:hover > .secundari{
+            display: block;
+        }
+        .navegacio{
+            
+        }
+        .secundari{
+            background-color: plum;
+            position: absolute;
+            left: 0;
+            top: 2.5rem;
+            display: block;
+            display: none;
+            
+        }
+        .segonnivell{
+            background-color: plum;
+            display: block;
+            font-size: 0.83rem;
+            top: 2rem;
+            height: 2rem;
+            margin: 0 0 0 1px;
+        }
+        .segonnivell:hover {
+            background-color: beige;
+            color: black;
+        }
+        body { 
+            margin: 0%;
+            font-family:'Times New Roman', Times, serif;}
+        h1 {
+            text-align: center;
+        }
+        h2 {margin-left: 5px;}
+        li {margin-left: 10px;}
+        p {
+            text-align: left;
+            margin-left: 15px;
+        }
+        div {
+            background-color: rgb(255, 214, 249);
+            margin: 0;
+            height: 50px;
+            padding: 0.5%;
+
+        }
+        .cap { 
+            background-color:pink;
+            text-size-adjust: 24px;
+            text-align: center;
+            padding: 2%;
+            height: 100px;
+        }
+        .menu {
+            float: left;
+            width: 24%;
+            height: auto;
+            margin: 0 auto;
+            height: 180px;
+            width: 300px;
+        }
+        .contingut { 
+            float: left;
+            width: 49%;
+            height: auto;
+            background-color: whitesmoke;
+            overflow:scroll;
+            height: 900px;
+        }
+        .lateral {  
+            float: left;
+            width: 24%;
+            height: 180px;
+            
+        }
+        .peu { 
+            background-color: pink;
+            clear: left;
+            text-align: center;
+            color: white;
+    
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cap">
+        <h1>El meu blog</h1>
+        
+        <ul class="navegacio">
+            <li class="primernivell">Opció 1
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 2
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 3
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 4
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 5
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+    
+        </ul>
+    </div>
+    <div class="menu">
+     <h1>Menú</h1>
+     <ul>
+        <li><a href="#e1">Entrada 1</a></li>
+        <li><a href="#e2">Entrada 2</a></li>
+        <li><a href="#e3">Entrada 3</a></li>
+        <li><a href="#e4">Entrada 4</a></li>
+        <li><a href="#e5">Entrada 5</a></li>
+        <li><a href="#e6">Entrada 6</a></li>
+        <li><a href="#e7">Entrada 7</a></li>
+     </ul>
+    </div>
+    <div class="contingut">
+        <H1>Contingut</H1>
+       <h2>Post 1</h2>
+        <p id="e1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam nisi nesciunt quos aut soluta repudiandae, itaque molestiae accusamus incidunt facere, voluptatum fuga expedita modi eligendi sunt, aliquam amet repellendus!</p>
+       <h2>Post 2</h2>
+       <p id="e2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam nisi nesciunt quos aut soluta repudiandae, itaque molestiae accusamus incidunt facere, voluptatum fuga expedita modi eligendi sunt, aliquam amet repellendus!</p>
+       <h2>Post 3</h2>
+       <p id="e3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam nisi nesciunt quos aut soluta repudiandae, itaque molestiae accusamus incidunt facere, voluptatum fuga expedita modi eligendi sunt, aliquam amet repellendus!</p>
+       <h2>Post 4</h2>
+       <p id="e4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam nisi nesciunt quos aut soluta repudiandae, itaque molestiae accusamus incidunt facere, voluptatum fuga expedita modi eligendi sunt, aliquam amet repellendus!</p>
+       <h2>Post 5</h2>
+       <p id="e5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam nisi nesciunt quos aut soluta repudiandae, itaque molestiae accusamus incidunt facere, voluptatum fuga expedita modi eligendi sunt, aliquam amet repellendus!</p>
+       <h2>Post 6</h2>
+       <p id="e6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam nisi nesciunt quos aut soluta repudiandae, itaque molestiae accusamus incidunt facere, voluptatum fuga expedita modi eligendi sunt, aliquam amet repellendus!</p>
+       <h2>Post 7</h2>
+       <p id="e7"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam nisi nesciunt quos aut soluta repudiandae, itaque molestiae accusamus incidunt facere, voluptatum fuga expedita modi eligendi sunt, aliquam amet repellendus!</p>
+
+
+    </div>
+    <div class="lateral">
+        <h1>Lateral</h1>
+     <li>Contingut</li>
+     <li>Contingut</li>
+     <li>Contingut</li>
+     <li>Contingut</li>
+     <li>Contingut</li>
+    </div>
+    <div class="peu">
+        <p>Copyright Clara García García</p>
+    </div>
+</body>
+</html>

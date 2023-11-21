@@ -1,0 +1,50 @@
+.tauler {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    border: black 10px solid;
+}
+    
+.casella {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(45deg,pink, white);
+    float: left;
+}
+
+.filera:nth-child(2n+1) .casella:nth-child(2n){
+    background-image: linear-gradient(45deg, rgb(132, 74, 83),white);
+
+}
+.filera:nth-child(2n) .casella:nth-child(2n+1){
+    background-image: linear-gradient(4100deg,rgb(132, 74, 83),white);
+}
+
+b {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #4B3B47;
+    background-image: radial-gradient(circle at 40% 40%, rgb(252, 147, 164), black);
+    margin: 10px auto;
+    display: block;
+    box-shadow: 3px 3px 3px black ;
+}
+b:hover{
+    background-image: radial-gradient(circle at 40% 40%, black);
+}
+.filera:nth-child(n+3) b{
+    display: none;
+}
+.filera:nth-child(n+7) b{
+    display: block;
+    background-image: radial-gradient(circle at 40% 40%, pink, #6a5364);
+}
+.degradat{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    background-image: radial-gradient(circle at 40% 40%, pink, #6a5364);
+    box-shadow: 3px 3px 3px black ;
+}
