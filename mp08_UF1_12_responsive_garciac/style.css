@@ -1,0 +1,26 @@
+/* vertical 393px x 732px
+horizontal 792px x 299px/*
+
+/* disseny mobil vertical*/
+
+@media screen and (max-width=480px){
+    body {
+        background-color: red;
+    }
+}
+
+/* disseny mobil apaisat*/
+
+@media screen and (min-width=481px) and (max-width=1024px){
+    body {
+        background-color: blue;
+    }
+}
+
+/* disseny escriptori*/
+
+@media screen and (min-width=1025px){
+    body {
+        background-color: rebeccapurple;
+    }
+}

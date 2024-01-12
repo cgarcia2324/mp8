@@ -1,0 +1,63 @@
+*{
+    margin: 0 auto;
+}
+.contenedor1{
+    background-color: #9381ff;
+    width: 100%;
+    height: 6rem;
+    float: left;
+    
+}
+.contenedor1 img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    float: right;
+}
+.contenedor1 h1 {
+
+    width: 22rem;
+    height: 2.8rem;
+    float: left;
+    font-size: 40px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: #ffeedd;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contenedor2{
+    background-color: black;
+    
+}
+ul a {
+    display: block;
+    width: 20rem;
+    height: 30rem;
+    background-color: #ffeedd;
+
+    float: left;
+    text-decoration: none;
+    margin: 0 auto;
+    margin: 5px;
+ }
+ .practica:hover{
+    background-color: #9381ff;
+ }
+ li {
+    
+    display: block;
+    width: 20rem;
+    height: 4.5rem;
+    text-align: center;
+    margin-top: 8rem ;
+    color: #b8b8ff;
+    font-size: 30px;
+ }
+ #img1{
+    width: 200px;
+    height: 200px;
+
+    float: left;
+ }
