@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //  Declaració de variables
+
+        var ug="cgarcia";
+        var cg="1234";
+       
+        // Demanar informació a l'usuari mitjançant un prompt
+
+        var ui=prompt("Escriu el teu usuari");
+        var ci=prompt("Introdueix la contrasenya");
+
+        // Comparem unes dades amb les altres
+        // == igual, === exactament igual, != diferent/desigual
+        // Amb codicionals podem fer comparacions
+
+        // si la contrasenyaguardada es igual a la contrasenyaintroduida des una cosa (entar)
+        // si es diferent (rebujar)
+        // & and 
+
+        // si (condicio) {
+            //funció
+        // }
+        //else{
+            //funcio2
+        //}
+
+        if (ug==ui & cg==ci){
+            //alert("Endavant");                   (PER A FINESTRA)
+            document.write("Correcte"); // (PER EN LA MISMA PAGINA)
+            document.body.style.background="lime";
+        }
+
+        else{
+            //alert("No et podem deixar entrar")     (PER A FINESTRA)
+            document.write("Incorrecte"); // (PER EN LA MISMA PAGINA)
+            document.body.style.background="red";
+        }
+
+
+        
+
+
+
+
+    </script>
+    
+</body>
+</html>
