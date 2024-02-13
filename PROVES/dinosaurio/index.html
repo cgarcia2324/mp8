@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" onclick="salt()">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>T-Rex</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="joc">
+            <div id="dino"></div>
+            <div id="obstacle"></div>
+        </div>
+        <div id="contador"></div>
+
+
+        <script>
+            var dino = document.getElementById("dino");
+            var obstacle = document.getElementById("obstacle");
+
+            function salt(){
+            if(dino.classList != "saltando"){
+            dino.classList.add("saltando");
+            }
+            setTimeout(function(){
+                dino.classList.remove("saltando")
+            },500);
+            }
+
+            var Mort = setInterval(function(){
+                //parseint te da un numemmro d una funcion
+                //getoputerstyle de donde coger los datos
+                //getprotopety que alor coget
+                var dinotop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"))
+                var obstacleleft = parseInt(window.getComputedStyle(obstacle).getPropertyValue("left"))
+
+                if(obstacleleft<20 && obstacleleft>0 && dinotop>=130){
+                    alert("game over");
+                    window.location.reload();
+                }
+            })
+
+            var n = 0;
+            var l = document.getElementById("contador");
+            window.setInterval(function(){
+                l.innerHTML = n;
+                n++;
+            },500);
+        </script>
+
+    </body>
+</html>
